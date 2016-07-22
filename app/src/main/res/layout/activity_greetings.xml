@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.kaplan.pdma.japanesebasicphrases.greetings"
+    android:background="#4abdac"
+    android:clickable="false">
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="0"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="Good Morning"
+            android:onClick="buttonTapped"
+            android:id="@+id/goodmorning"
+            android:height="140dp"
+            android:width="160dp"
+            android:background="#f7b733"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="0"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+
+            android:text="Good Afternoon"
+            android:onClick="buttonTapped"
+            android:id="@+id/goodafternoon"
+            android:height="140dp"
+            android:width="160dp"
+            android:background="#f7b733"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="1"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+
+            android:text="Good Evening"
+            android:onClick="buttonTapped"
+            android:id="@+id/goodevening"
+            android:height="140dp"
+            android:width="160dp"
+            android:background="#f7b733"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="1"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+
+            android:text="What's up?"
+            android:onClick="buttonTapped"
+            android:id="@+id/whatsup"
+            android:height="140dp"
+            android:width="160dp"
+            android:background="#f7b733"
+            android:layout_margin="5dp" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="2"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+
+            android:text="I'm back (home)."
+            android:onClick="buttonTapped"
+            android:id="@+id/imbackhome"
+            android:height="140dp"
+            android:width="160dp"
+            android:background="#f7b733"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="2"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+
+            android:text="I'm leaving."
+            android:onClick="buttonTapped"
+            android:id="@+id/imleaving"
+            android:height="140dp"
+            android:width="160dp"
+            android:background="#f7b733"
+            android:layout_margin="5dp" />
+
+
+
+
+    </GridLayout>
+</RelativeLayout>
